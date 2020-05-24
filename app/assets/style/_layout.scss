@@ -1,0 +1,53 @@
+.navbar{
+  z-index: 1;
+}
+.nav-menu{
+  position: absolute;
+  left: -120%;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+  transition: all 0.8s;
+  overflow: hidden;
+  z-index: 120;
+}
+.nav-menu.active {
+  left: 0;
+}
+.nav-menu-title{
+  font-size: 24px;
+  line-height: 28px;
+}
+.shopping-cart-page{
+  position: absolute;
+  right: -120%;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  transition: all 0.8s;
+  overflow: hidden;
+  z-index: 120;
+}
+.shopping-cart-page.active {
+  right: 0;
+}
+.cartList_title{
+  font-size: 24px;
+  font-weight: bold;
+  sup{
+    font-size: .9rem;
+    padding-left: 5px;
+  }
+}
+
+.cartList_item{
+  background: #F2F2F2;
+  &_img{
+    height: 96px;
+    width: 96px;
+    flex-shrink: 0;
+    background-size: cover;
+    background-position: center;
+  }
+}
+

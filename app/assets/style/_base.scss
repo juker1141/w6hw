@@ -28,6 +28,49 @@
 .lh-57{
   line-height: 57px;
 }
+ul,li{
+  list-style: none;
+  padding: 0;
+}
+sup{
+  font-size: .6rem;
+  top: -.4rem;
+}
+s{
+  font-size: 12px;
+  color: #00000062;
+}
 .font-raleway{
   font-family: 'Raleway', sans-serif;;
+}
+.mb-108{
+  margin-bottom: 108px;
+}
+.mb-178{
+  margin-bottom: 178px;
+}
+.pt-188{
+  padding-top: 188px;
+}
+.btn-lg{
+  padding: 1rem;
+  font-size: 16px;
+}
+.specialClays_img{
+  background: url(../images/SpecialClays.jpg) no-repeat;
+}
+.lessismore_img{
+  background: url(../images/Lessismore.jpg) no-repeat;
+}
+.marvelousDetail_img{
+  background: url(../images/MarvelousDetail.jpg) no-repeat;
+}
+.hsiaoMingChen_img{
+  background: url(../images/hsiao-MingChen.jpg) no-repeat;
+}
+.tatamiCup_img{
+  background: url(../images/TatamiCup.jpg) no-repeat;
+}
+.baifanBowl_img{
+  background: url(../images/BaifanBowl.jpg) no-repeat;
 }

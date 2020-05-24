@@ -1,0 +1,62 @@
+.indexPage{
+  position: relative;
+  top: -60px;
+}
+
+.header_banner{
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../images/banner.jpg) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  h1{
+    font-size: 48px;
+  }
+}
+.features_img{
+  width: 100%;
+  height: 244px;
+  background-size: cover;
+  background-position: center;
+}
+.artDirector{
+  &_img{
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+  }
+  &_title{
+    font-size: 32px;
+  }
+  &_name{
+    font-size: 24px;
+  }
+  &_community{
+    font-size: 14px;
+  }
+}
+
+.productAD{
+  width: 100%;
+  &_img{
+    width: 240px;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+  }
+  .card-title{
+    font-size: 14px;
+  }
+  &_name{
+    font-size: 24px;
+  }
+  s{
+    font-size: 16px;
+  }
+}
+.swiper-container {
+  width: 100%;
+}
+.swiper-slide {
+  width: 240px;
+  height: 316px;
+  margin-right: 16px;
+}
