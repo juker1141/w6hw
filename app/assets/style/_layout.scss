@@ -55,4 +55,37 @@
 .footer_banner{
   background-size: cover;
   background-position: center 0;
+  input{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 59px;
+    padding: 16.5px 16px;
+  }
+  ::placeholder { /* CSS 3 標準 */
+  color: #FFFFFF99;
+  }
+  ::-webkit-input-placeholder { /* Chrome, Safari */
+  color: #FFFFFF99;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+  color: #FFFFFF99;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+  color: #FFFFFF99;
+  opacity: 1;
+  }
+  &_emailInput{
+    
+  }
+  .subscribeBtn{
+    padding: 16.5px 24px;
+  }
+}
+.footer_logo{
+  a{
+    text-decoration: none;
+  }
+}
+.logo_reserved_pc{
+  display: none;
 }
