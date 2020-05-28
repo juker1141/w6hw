@@ -36,7 +36,8 @@
                   </li>
                   <li class="nav-item">
                     <div class="d-flex align-items-center justify-content-between">
-                      <a class="nav-link nav-menu-title text-primary p-0" href="#">Product</a>
+                      <a class="nav-link nav-menu-title text-primary p-0 productlistBtn"
+                        href="productlist.html">Product</a>
                       <span class="material-icons">keyboard_arrow_up</span>
                     </div>
                     <hr class="w-100 border-2nddark">
@@ -59,11 +60,12 @@
                   <hr class="w-100 border-2nddark">
                 </ul>
               </div>
-              <button class="btn d-flex align-items-center bg-transparent p-0 shopping_cartBtn" type="button">
-                <span class="material-icons text-white">shopping_cart</span>
+              <button class="btn d-flex align-items-center text-white bg-transparent p-0 shopping_cartBtn"
+                type="button">
+                <span class="material-icons">shopping_cart</span>
               </button>
             </div>
-            
+
             <ul class="shopping-cart-page bg-white p-3  ml-auto d-flex flex-column">
               <li class="shopping-cart-header d-flex mb-3 justify-content-between align-items-center">
                 <div class="cartList_title">Cart List<sup class="text-success">3</sup></div>
@@ -133,39 +135,53 @@
 
 
   <%- contents %>
-  <section class="footer mt-5">
-    <section class="footer_banner">
-      <div class="container-fluid">
-        <div class="row">
+  <section class="l_footer mt-5">
+    <section class="l_footer_banner">
+      <div class="container">
+        <div class="row align-items-center">
           <div class="col">
             <div class="jumbotron p-0 bg-transparent py-4 mb-0">
-              <h2 class="text-white mb-4 lh-48 font-weight-bold">Subscribe for news <br> and special offers!</h2>
-              <div class="btn-group w-100" role="group" aria-label="Basic example">
-                <input type="email" class="form-control footer_banner_emailInput bg-transparent" id="exampleInputEmail1"
-                  aria-describedby="emailHelp" placeholder="Your email address">
-                <button type="button" class="btn btn-success btn-lg subscribeBtn">Subscribe</button>
+              <div class="row justify-content-start">
+                <div class="col-12 col-xl-5">
+                  <h2 class="text-white mb-4 lh-48 font-weight-bold">Subscribe for news <br> and special offers!</h2>
+                </div>
               </div>
+              <div class="row justify-content-start">
+                <div class="col-12 col-xl-5">
+                  <div class="btn-group w-100" role="group" aria-label="Basic example">
+                    <input type="email" class="form-control l_footer_banner_emailInput bg-transparent"
+                      id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email address">
+                    <button type="button" class="btn btn-success btn-lg subscribeBtn">Subscribe</button>
+                  </div>
+                </div>
+              </div>
+
+
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="footer_information bg-primary py-4">
-      <div class="container-fluid">
-        <div class="row">
+    <section class="l_footer_information bg-primary py-4">
+      <div class="container">
+        <div class="row align-items-center">
           <div class="col">
-            <div class="footer_logo mb-5">
-              <a href="#" class="text-white font-raleway">
-                <h1 class="fz-24 lh-29 mb-0">Craftsman</h1>
-              </a>
-              <div class="text-littleword1 logo_reserved_pc fz-14 lh-16">© 2020. All Rights Reserved.</div>
+            <div class="l_footer_information_desktop">
+              <div class="l_footer_logo mb-5 d-flex align-items-center">
+                <a href="#" class="text-white font-raleway">
+                  <h1 class="fz-24 lh-29 mb-0">Craftsman</h1>
+                </a>
+                <div class="text-littleword1 logo_reserved_desktop fz-14 lh-16">© 2020. All Rights Reserved.</div>
+              </div>
+              <ul class="mb-5 fz-14 lh-16">
+                <li class="mb-3 d-flex align-items-center"><a href="#" class="text-littleword2">Purchase Policy</a></li>
+                <li class="mb-3 d-flex align-items-center"><a href="#" class="text-littleword2">Privacy Policy</a></li>
+                <li class="mb-3 d-flex align-items-center"><a href="#" class="text-littleword2">Terms & Conditions</a>
+                </li>
+              </ul>
+              <div class="logo_reserved_mobile text-littleword1 fz-14 lh-16">© 2020. All Rights Reserved.</div>
             </div>
-            <ul class="mb-5 fz-14 lh-16">
-              <li class="mb-3"><a href="#" class="text-littleword2">Purchase Policy</a></li>
-              <li class="mb-3"><a href="#" class="text-littleword2">Privacy Policy</a></li>
-              <li class="mb-3"><a href="#" class="text-littleword2">Terms & Conditions</a></li>
-            </ul>
-            <div class="logo_reserved_mobile text-littleword1 fz-14 lh-16">© 2020. All Rights Reserved.</div>
+
           </div>
         </div>
       </div>
