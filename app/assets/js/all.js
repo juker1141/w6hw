@@ -22,9 +22,11 @@ switch ($('title').text()) {
   //   $('a[href="productList.html"]').addClass('custom__text');
   //   break;
   case "ProductList":
-    $('.product_logo_icon').addClass('active');
-    $('.menuBtn').addClass('active');
-    $('.shopping_cartBtn').addClass('active');
+    $('.product_logo_icon').addClass('text-primary');
+    $('.menuBtn').addClass('text-primary');
+    $('.shopping_cartBtn').addClass('text-primary');
+    $('.nav-link').addClass('text-dark');
+    $('.productlistBtn').addClass('text-success');
     break;
   case "Product":
     $('a[href="productList.html"]').addClass('active');
