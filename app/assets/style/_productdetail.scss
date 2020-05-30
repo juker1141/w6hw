@@ -1,0 +1,89 @@
+.productDetail {
+  .product_img {
+    height: 360px;
+    width: 100%;
+    @include media-breakpoint-up(md) {
+      height: 500px;
+    }
+  }
+  .card-img-overlay {
+    height: 40px;
+    z-index: 0;
+  }
+  .card-body {
+    margin-top: -25px;
+    background: #ffffff;
+  }
+  .product_name {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .btn-group {
+    height: 56px;
+  }
+  .product_price {
+    text-align: right;
+    font-size: 24px;
+    line-height: 28px;
+    &Original {
+      font-size: 16px;
+      font-weight: normal;
+    }
+  }
+  .shopping_addcartBtn {
+    padding: 15px 0;
+  }
+  &_introduction {
+    font-size: 16px;
+  }
+  &_spec {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  @include media-breakpoint-up(xl) {
+    .card {
+      margin: 0 auto;
+      max-width: 1140px;
+      padding: 0 15px;
+      flex-direction: row !important;
+      align-items: center !important;
+      .card-img-overlay {
+        justify-content: start !important;
+        padding: 15px 30px !important;
+      }
+      .card-body {
+        width: 445px;
+        height: 300px;
+        margin: 0;
+        margin-left: -60px;
+        padding: 32px !important;
+        padding-right: 0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .product_name {
+        font-size: 48px;
+        line-height: 57px;
+      }
+      .container {
+        width: 445px;
+      }
+    }
+    .product_img {
+      max-width: 730px;
+      height: 422px;
+    }
+    &_introduction {
+      margin-top: 48px;
+      margin-bottom: 24px;
+      font-size: 20px;
+      line-height: 30px;
+    }
+    &_spec {
+      margin-top: 48px;
+      margin-bottom: 24px;
+      font-size: 16px;
+    }
+  }
+}

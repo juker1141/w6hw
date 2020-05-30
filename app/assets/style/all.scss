@@ -18,7 +18,7 @@
 @import "../../../node_modules/bootstrap/scss/nav";
 @import "helpers/navbar";
 @import "../../../node_modules/bootstrap/scss/card";
-@import "../../../node_modules/bootstrap/scss/breadcrumb";
+@import "helpers/breadcrumb";
 @import "../../../node_modules/bootstrap/scss/pagination";
 @import "../../../node_modules/bootstrap/scss/badge";
 @import "../../../node_modules/bootstrap/scss/jumbotron";
@@ -39,3 +39,5 @@
 @import "layout";
 @import "index";
 @import "productlist";
+@import "productdetail";
+@import "information";

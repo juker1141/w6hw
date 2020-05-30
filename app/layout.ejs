@@ -14,6 +14,7 @@
 
 <body>
   <section class="l-header">
+    <div class="darkShady"></div>
     <div class="container">
       <div class="row">
         <div class="col">
@@ -22,11 +23,11 @@
               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="material-icons">menu</span>
             </button>
-            <a class="navbar-brand font-raleway text-white product_logo_icon" href="#">
+            <a class="navbar-brand font-raleway text-white product_logo_icon m-0" href="index.html">
               <h1 class="fz-24 lh-29 mb-0">Craftsman</h1>
             </a>
             <div class="flex_block_desktop d-flex align-items-center">
-              <div class="nav-menu bg-white p-3">
+              <div class="nav-menu bg-white p-3 ">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-header d-flex justify-content-between mb-32">
                     <a href="#" class="d-flex align-items-center btn p-0 goback_icon" role="button"><span
@@ -65,72 +66,81 @@
                 <span class="material-icons">shopping_cart</span>
               </button>
             </div>
-
-            <ul class="shopping-cart-page bg-white p-3  ml-auto d-flex flex-column">
-              <li class="shopping-cart-header d-flex mb-3 justify-content-between align-items-center">
-                <div class="cartList_title">Cart List<sup class="text-success">3</sup></div>
-                <a href="#" class="d-flex align-items-center btn p-0 shopping-cart-close-icon" role="button"><span
-                    class="material-icons">close</span></a>
-              </li>
-              <li class="nav-item cartList_item d-flex w-100 mb-2">
-                <div class="cartList_item_img tatamiCup_img"></div>
-                <ul class="p-2 cartList_item_information w-100">
-                  <li class="d-flex align-items-center justify-content-between item_title font-weight-bold">
-                    Tatami Cup
-                    <a href="#" class="d-flex align-items-center btn p-0" role="button"><span
-                        class="material-icons">close</span></a>
-                  </li>
-                  <li class="item_price mb-2">NT$1,080<s class="pl-2">NT$1,200</s></li>
-                  <li class="d-flex align-items-center justify-content-between">
-                    <div class="d-flex align-items-center">
-                      <a href="#" class="d-flex align-items-center btn p-0" role="button"><span
-                          class="material-icons">remove</span></a>
-                      <div class="mx-4">1</div>
-                      <a href="#" class="d-flex align-items-center btn p-0" role="button"><span
-                          class="material-icons">add</span></a>
-                    </div>
-                    <div class="font-weight-bold">NT$1,080</div>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item cartList_item d-flex w-100 mb-4">
-                <div class="cartList_item_img baifanBowl_img"></div>
-                <ul class="p-2 cartList_item_information w-100">
-                  <li class="d-flex align-items-center justify-content-between item_title font-weight-bold">
-                    Baifan Bowl
-                    <a href="#" class="d-flex align-items-center btn p-0" role="button"><span
-                        class="material-icons">close</span></a>
-                  </li>
-                  <li class="item_price mb-2">NT$1,800</li>
-                  <li class="d-flex align-items-center justify-content-between">
-                    <div class="d-flex align-items-center">
-                      <a href="#" class="d-flex align-items-center btn p-0" role="button"><span
-                          class="material-icons">remove</span></a>
-                      <div class="mx-4">2</div>
-                      <a href="#" class="d-flex align-items-center btn p-0" role="button"><span
-                          class="material-icons">add</span></a>
-                    </div>
-                    <div class="font-weight-bold">NT$3,600</div>
-                  </li>
-                </ul>
-              </li>
-              <li class="d-flex justify-content-between text-information mb-3">
-                Subtotal<div class="subtotalprice">NT$4,680</div>
-              </li>
-              <li class="d-flex justify-content-between text-information mb-3">
-                Shipping<div class="shippingprice">NT$80</div>
-              </li>
-              <li class="d-flex justify-content-between font-weight-bold fz-24 mb-152">
-                Total<div class="Totalprice">NT$4,760</div>
-              </li>
-              <li>
-                <button type="button" class="btn btn-success w-100 p-3 font-weight-bold rounded-0">Checkout</button>
-              </li>
-            </ul>
           </nav>
         </div>
       </div>
     </div>
+
+    <div class="shopping-cart-page bg-white p-3 ml-auto">
+      <div class="shopping-cart-header d-flex mb-3 justify-content-between align-items-center">
+        <div class="cartList_title">Cart List<sup class="text-success">3</sup></div>
+        <a href="#" class="d-flex align-items-center btn p-0 shopping-cart-close-icon" role="button"><span
+            class="material-icons">close</span></a>
+      </div>
+      <ul class="d-flex flex-column w-100 align-items-end">
+        <li class="nav-item cartList_item d-flex w-100 mb-2">
+          <div class="cartList_item_img tatamiCup_img"></div>
+          <ul class="p-2 cartList_item_information w-100">
+            <li class="d-flex align-items-center justify-content-between item_title font-weight-bold">
+              Tatami Cup
+              <a href="#" class="d-flex align-items-center btn p-0" role="button"><span
+                  class="material-icons">close</span></a>
+            </li>
+            <li class="item_price mb-2">NT$1,080<s class="pl-2">NT$1,200</s></li>
+            <li class="d-flex align-items-center justify-content-between">
+              <div class="d-flex align-items-center">
+                <a href="#" class="d-flex align-items-center btn p-0" role="button"><span
+                    class="material-icons">remove</span></a>
+                <div class="mx-4">1</div>
+                <a href="#" class="d-flex align-items-center btn p-0" role="button"><span
+                    class="material-icons">add</span></a>
+              </div>
+              <div class="font-weight-bold">NT$1,080</div>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item cartList_item d-flex w-100 mb-4">
+          <div class="cartList_item_img baifanBowl_img"></div>
+          <ul class="p-2 cartList_item_information w-100">
+            <li class="d-flex align-items-center justify-content-between item_title font-weight-bold">
+              Baifan Bowl
+              <a href="#" class="d-flex align-items-center btn p-0" role="button"><span
+                  class="material-icons">close</span></a>
+            </li>
+            <li class="item_price mb-2">NT$1,800</li>
+            <li class="d-flex align-items-center justify-content-between">
+              <div class="d-flex align-items-center">
+                <a href="#" class="d-flex align-items-center btn p-0" role="button"><span
+                    class="material-icons">remove</span></a>
+                <div class="mx-4">2</div>
+                <a href="#" class="d-flex align-items-center btn p-0" role="button"><span
+                    class="material-icons">add</span></a>
+              </div>
+              <div class="font-weight-bold">NT$3,600</div>
+            </li>
+          </ul>
+        </li>
+        <li class="cartList_detail">
+          <ul>
+            <li class="d-flex justify-content-between text-information mb-3">
+              Subtotal<div class="subtotalprice">NT$4,680</div>
+            </li>
+            <li class="d-flex justify-content-between text-information mb-3">
+              Shipping<div class="shippingprice">NT$80</div>
+            </li>
+            <li class="d-flex justify-content-between font-weight-bold fz-24">
+              Total<div class="totalprice">NT$4,760</div>
+            </li>
+            <li class="checkoutBtn">
+              <a href="information.html"
+                class="btn btn-success w-100 p-3 font-weight-bold checkoutBtn text-white">Checkout</a>
+            </li>
+          </ul>
+        </li>
+
+    </div>
+
+    </ul>
   </section>
 
 
@@ -191,6 +201,7 @@
 
   <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
   <script src="./assets/js/vendors.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="./assets/js/all.js"></script>
 </body>
 

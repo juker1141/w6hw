@@ -1,6 +1,9 @@
 .fz-14 {
   font-size: 14px;
 }
+.fz-16 {
+  font-size: 16px;
+}
 .fz-24 {
   font-size: 24px;
 }
@@ -47,6 +50,78 @@ s {
   font-size: 12px;
   color: #00000062;
 }
+.mobileHide {
+  display: none !important;
+  @include media-breakpoint-up(xl) {
+    display: flex !important;
+  }
+}
+.mobileShow {
+  display: flex !important;
+  @include media-breakpoint-up(xl) {
+    display: none !important;
+  }
+}
+.p--0 {
+  @include media-breakpoint-up(xl) {
+    padding: 0 !important;
+  }
+}
+.mt--110 {
+  @include media-breakpoint-up(xl) {
+    margin-top: -110px;
+  }
+}
+.mt--130 {
+  @include media-breakpoint-up(xl) {
+    margin-top: -130px;
+  }
+}
+.mt--240 {
+  @include media-breakpoint-up(xl) {
+    margin-top: -240px;
+  }
+}
+.bigCard {
+  @include media-breakpoint-up(xl) {
+    width: 350px !important;
+    height: 556px !important;
+    margin-bottom: 48px !important;
+  }
+}
+.normalCard {
+  @include media-breakpoint-up(xl) {
+    width: 350px !important;
+    height: 426px !important;
+    margin-bottom: 48px !important;
+  }
+}
+.smallCard {
+  @include media-breakpoint-up(xl) {
+    width: 350px !important;
+    height: 316px !important;
+    margin-bottom: 48px !important;
+  }
+}
+
+.bigImg {
+  @include media-breakpoint-up(xl) {
+    width: 350px !important;
+    height: 480px !important;
+  }
+}
+.normalImg {
+  @include media-breakpoint-up(xl) {
+    width: 350px !important;
+    height: 350px !important;
+  }
+}
+.smallImg {
+  @include media-breakpoint-up(xl) {
+    width: 350px !important;
+    height: 240px !important;
+  }
+}
 .font-raleway {
   font-family: "Raleway", sans-serif;
 }
@@ -55,9 +130,6 @@ s {
 }
 .mb-108 {
   margin-bottom: 108px;
-}
-.mb-152 {
-  margin-bottom: 152px;
 }
 .pt-188 {
   padding-top: 188px;
@@ -78,21 +150,39 @@ s {
 .marvelousDetail_img {
   background: url(../images/MarvelousDetail.jpg) no-repeat;
 }
+
 .hsiaoMingChen_img {
   background: url(../images/hsiao-MingChen.jpg) no-repeat;
 }
+
 .tatamiCup_img {
   background: url(../images/TatamiCup.jpg) no-repeat;
+}
+.hanaVase_img {
+  background: url(../images/HanaVase.jpg) no-repeat;
 }
 .baifanBowl_img {
   background: url(../images/BaifanBowl.jpg) no-repeat;
 }
-.coupleCollection_img {
-  background: url(../images/CoupleCollection.jpg) no-repeat;
+.limdaeCup_img {
+  background: url(../images/LimdaeCup.jpg) no-repeat;
 }
 .sumoVase_img {
   background: url(../images/SumoVase.jpg) no-repeat;
 }
+.ceramicVase_img {
+  background: url(../images/CeramicVase.jpg) no-repeat;
+}
+.kabiMug_img {
+  background: url(../images/KabiMug.jpg) no-repeat;
+}
+.shiroPlate_img {
+  background: url(../images/ShiroPlate.jpg) no-repeat;
+}
+.coupleCollection_img {
+  background: url(../images/CoupleCollection.jpg) no-repeat;
+}
+
 .l_footer_banner {
   background: url(../images/footer_banner.jpg) no-repeat;
 }
