@@ -12367,16 +12367,11 @@ a.text-gray:hover, a.text-gray:focus {
   }
 }
 
-html {
-  height: 100%;
-  width: 100%;
-  position: fixed;
-}
-
 html,
 body {
   width: 100%;
   overflow-x: hidden !important;
+  overflow-y: scroll;
 }
 
 .fz-14 {
