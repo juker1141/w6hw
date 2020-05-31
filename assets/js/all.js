@@ -74,8 +74,9 @@ switch ($('title').text()) {
     $('.menuBtn').addClass('text-primary');
     $('.shopping_cartBtn').addClass('text-primary');
     $('.nav-link').addClass('text-dark');
+    alert(i);
 
-    if (i == 'http://localhost:8080/information.html') {
+    if (i == 'https://juker1141.github.io/w6hw/information.html') {
       $('.shopping-cart-page').addClass('active');
       $('.darkShady').show();
     }
