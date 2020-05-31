@@ -5092,7 +5092,7 @@ input[type="button"].btn-block {
   }
 }
 
-nav-menu.nav {
+.nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5740,7 +5740,6 @@ nav-menu.nav {
   bottom: 0;
   left: 0;
   padding: 1.25rem;
-  z-index: 0;
 }
 
 .card-img,
@@ -12539,10 +12538,6 @@ s {
   }
 }
 
-.font-raleway {
-  font-family: "Raleway", sans-serif;
-}
-
 .mb-32 {
   margin-bottom: 32px;
 }
@@ -12634,6 +12629,10 @@ body {
 
 .navbar {
   z-index: 1;
+}
+
+.product_logo_icon {
+  font-family: "Raleway", sans-serif !important;
 }
 
 .nav-menu {
