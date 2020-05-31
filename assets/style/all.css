@@ -12538,6 +12538,10 @@ s {
   }
 }
 
+.font-raleway {
+  font-family: "Raleway", sans-serif;
+}
+
 .mb-32 {
   margin-bottom: 32px;
 }
@@ -12629,10 +12633,6 @@ body {
 
 .navbar {
   z-index: 1;
-}
-
-.product_logo_icon {
-  font-family: "Raleway", sans-serif !important;
 }
 
 .nav-menu {
