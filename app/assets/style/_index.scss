@@ -1,4 +1,4 @@
-.indexPage {
+.upPage {
   position: relative;
   top: -60px;
 }
@@ -45,11 +45,15 @@
   height: 244px;
   background-size: cover;
   background-position: center;
-  @include media-breakpoint-up(xl) {
+}
+@include media-breakpoint-up(xl) {
+  .features_img {
     height: 400px;
   }
+  .features_flex-reverse {
+    flex-direction: row-reverse !important;
+  }
 }
-
 .artDirector {
   &_img {
     background-position: center;

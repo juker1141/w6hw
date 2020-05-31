@@ -4,6 +4,7 @@ layout: ./app/layout.ejs
 engine: ejs
 current: index
 ---
+
 <section class="main">
   <div class="container">
     <div class="row flex-row-reverse">
@@ -57,7 +58,7 @@ current: index
         <nav class="informationBreadcrumb mb-5 d-flex" aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="#" class="text-success">Cart</a></li>
-            <li class="breadcrumb-item font-weight-bold ">Information</li>
+            <li class="breadcrumb-item font-weight-bold">Information</li>
             <li class="breadcrumb-item text-information">Payment</li>
           </ol>
         </nav>
@@ -83,16 +84,16 @@ current: index
           <h5>Shipping address</h5>
           <div class="form-row">
             <div class="form-group col-xl-6 mb-2">
-              <input type="text" class="form-control form-control-lg fz-16 py-4" id="inputAddress2" placeholder="Name">
+              <input type="text" class="form-control form-control-lg fz-16 py-4" id="inputName" placeholder="Name">
             </div>
             <div class="form-group col-xl-6 mb-2">
-              <input type="tel" class="form-control form-control-lg fz-16 py-4" id="inputAddress2" placeholder="Phone">
+              <input type="tel" class="form-control form-control-lg fz-16 py-4" id="inputPhone" placeholder="Phone">
             </div>
           </div>
 
           <div class="form-row">
             <div class="form-group col-xl-6 mb-2">
-              <select id="inputState" class="form-control form-control-lg fz-16">
+              <select id="inputCountry" class="form-control form-control-lg fz-16">
                 <option selected disabled>Country/Region</option>
                 <option>Taiwan</option>
                 <option>France</option>
@@ -120,10 +121,11 @@ current: index
           </div>
           <div class="row flex-row-reverse align-items-center">
             <div class="col-xl-6 goToPaymentBtn">
-              <button type="submit" class="btn btn-success btn-lg font-weight-bold w-100">Continue to payment</button>
+              <a href="payment.html" type="submit" class="btn btn-success btn-lg font-weight-bold w-100">Continue to
+                payment</a>
             </div>
             <div class="col-xl-6 backCartBtn d-flex">
-              <a href="#" class="btn text-success d-flex align-items-center">
+              <a href="productdetail.html" class="btn text-success d-flex align-items-center">
                 <span class="material-icons">
                   keyboard_arrow_left
                 </span>Return to cart</a>

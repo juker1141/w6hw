@@ -50,6 +50,18 @@ $('.checkBtn').click(function (e) {
   $('.checkBtn').toggle();
 })
 
+$('.customerInformationShowBtn_up').hide()
+$('.customerInformationShowBtn').click(function (e) {
+  e.preventDefault();
+  $('.customerInformationList').toggle();
+  $('.customerInformationShowBtn_up').toggle();
+  $('.customerInformationShowBtn_down').toggle();
+  $('.customerInformation_mail').toggle();
+  $('.customerInformation_address').toggle();
+  $('.customerInformation').toggleClass('border-bottom-0');
+  $('.shipInformation').toggleClass('borderRadius0');
+})
+
 
 var i = document.referrer
 switch ($('title').text()) {
@@ -82,12 +94,22 @@ switch ($('title').text()) {
     $('.l_footer').hide();
     break;
   case "Payment":
-    $(".section__subscribe").hide();
-    $(".js-layout__navbar__footer").hide();
+    $('.product_logo_icon').addClass('text-primary');
+    $('.navbar').addClass('align-left');
+    $('.l-header .col').addClass('offset-xl-1');
+    $('.navbar-toggler').hide();
+    $('.menuBtn span').hide();
+    $('.shopping_cartBtn span').hide();
+    $('.nav-link').hide();
+    $('.l_footer').hide();
     break;
-  case "Well Done":
-    $(".section__subscribe").hide();
-    $(".js-layout__navbar__footer").hide();
+  case "Paydone":
+    $('.navbar').addClass('align-left');
+    $('.navbar-toggler').hide();
+    $('.menuBtn span').hide();
+    $('.shopping_cartBtn span').hide();
+    $('.nav-link').hide();
+    $('.l_footer').hide();
     break;
 }
 

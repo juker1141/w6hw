@@ -1,0 +1,25 @@
+.customerInformation {
+  border-radius: 5px 5px 0 0;
+  height: 50px;
+  &ShowBtn {
+    text-decoration: none !important;
+  }
+  &List {
+    display: none;
+  }
+}
+.borderRadiusBottom {
+  border-radius: 0 0 5px 5px;
+}
+.borderRadius0 {
+  border-radius: 0;
+}
+.form-control {
+  border: solid 1px #00000060;
+}
+.form-mb-2 {
+  margin-bottom: 8px;
+  @include media-breakpoint-up(xl) {
+    margin: 0;
+  }
+}
